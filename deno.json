@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": ["deno.window"]
+  },
+  "nodeModulesDir": "auto",
+  "imports": {
+    "node-llama-cpp": "npm:node-llama-cpp@^3.4.2"
+  },
+  "tasks": {
+    "start": "deno run --allow-env main.ts"
+  },
+  "permissions": {
+    "env": true
+  }
+}
